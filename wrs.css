@@ -1,0 +1,119 @@
+body {
+  font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Meiryo UI', Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  background-color: royalblue;
+}
+
+.big_title {
+  margin: 5px 0 20px 0;  
+}
+
+.l1_title {
+  margin: 5px 0 0 0;  
+}
+
+.l2_title {
+  margin: 3px 0 0 20px;
+}
+
+.mailBox {
+  width: 300px;               /*要素の幅*/
+  color: black;             /*要素の色*/
+  font-size: 1em;             /*要素のサイズ*/
+  padding: auto;           /*要素の内側の余白（上下、左右の順）*/
+  margin: 5px 5px 3px 22px;   /*要素の外側の余白（上、右、下、左の順）*/
+}
+
+.mailBoxInner {
+  width: 300px;               /*要素の幅*/
+  color: black;             /*要素の色*/
+  font-size: 1em;             /*要素のサイズ*/
+  padding: 8px 3px;           /*要素の内側の余白（上下、左右の順）*/
+  margin: 5px 5px 3px 10px;   /*要素の外側の余白（上、右、下、左の順）*/
+
+  border: solid 1px #ccc;
+  border-radius: 3px;         /*要素の四隅の角を丸める*/
+  box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+}
+
+
+.l1flex{
+  display: flex;
+  padding: auto;
+}
+
+.l1flex div{
+  margin: 0 0;
+}
+
+.startBtn{
+  width: auto;
+  height: auto;
+  margin: 0 0 0 605px;
+}
+
+.checkBtn{
+  width: 150px;
+  height: auto;
+  font-size: 1em;             /*要素のサイズ*/
+  padding: 5px 3px;
+  margin: 5px 0 0 35px;
+}
+
+.submitBtn{
+  width: auto;
+  height: auto;
+  margin: 0 0 0 630px;
+}
+
+.chatsubmitBtn{
+  width: auto;
+  height: auto;
+  margin: 0 0 0 590px;
+}
+
+.textBox {
+  width: 650px;               /*要素の幅*/
+  color: black;             /*要素の色*/
+  font-size: 1em;             /*要素のサイズ*/
+  padding: 8px 3px;           /*要素の内側の余白（上下、左右の順）*/
+  margin: 5px 5px 5px 22px;   /*要素の外側の余白（上、右、下、左の順）*/
+
+  border: solid 1px #ccc;
+  border-radius: 3px;         /*要素の四隅の角を丸める*/
+  box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+}
+
+.textBoxStartMsg {
+  width: 650px;               /*要素の幅*/
+  /* height: 80px; */
+  color: black;             /*要素の色*/
+  font-size: 1em;             /*要素のサイズ*/
+  white-space: normal;
+  word-break: break-all;
+  padding: 8px 3px;           /*要素の内側の余白（上下、左右の順）*/
+  margin: 5px 5px 5px 22px;   /*要素の外側の余白（上、右、下、左の順）*/
+
+  border: solid 1px #ccc;
+  border-radius: 3px;         /*要素の四隅の角を丸める*/
+  box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+}
+
+.textBoxSubmitMsg {
+  width: 650px;               /*要素の幅*/
+  height: 60px;
+  color: black;             /*要素の色*/
+  font-size: 1em;             /*要素のサイズ*/
+  padding: 8px 3px;           /*要素の内側の余白（上下、左右の順）*/
+  margin: 5px 5px 5px 22px;   /*要素の外側の余白（上、右、下、左の順）*/
+
+  border: solid 1px #ccc;
+  border-radius: 3px;         /*要素の四隅の角を丸める*/
+  box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+}
+
+.timeMngSystemBtn{
+  width: 150px;
+  height: auto;
+  padding: 8px 3px;
+  margin: 5px 0 0 523px;
+}
