@@ -2,7 +2,7 @@
 // 1行目に記載している 'use strict' は削除しないでください
 
 function fileOpen() {
-  window.open("document/Presen.pdf", "_blank");
+  window.open("https://tohru-mano.github.io/toru_mano.github.ip/document/Presen.pdf", "_blank");
 }
 
 let locaChk = "出社";               //ロケーション確認
