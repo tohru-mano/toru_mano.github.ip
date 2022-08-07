@@ -113,7 +113,7 @@ function teamsChatSubmit() {
   const mailAll = mailWithId.map(mail => mail.value);
   
   const mailsAfterFilter = mailAll.filter(mail => mail !== "");
-  console.log("mailALL is ", mailsAfterFilter[0]);
+//   console.log("mailALL is ", mailsAfterFilter[0]);
 
   if (mailsAfterFilter[0] === undefined) {
     return alert("メールアドレスが入力されていません。")
